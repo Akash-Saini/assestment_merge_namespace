@@ -1,0 +1,13 @@
+- name: kubectl - Google Cloud GKE cluster.
+  # You may pin to the exact commit or the version.
+  # uses: ameydev/gke-kubectl-action@dbe114f1703050edcbdc4285cab3f859646834d2
+  uses: ameydev/gke-kubectl-action@v1.02
+  with:
+    # GCP authorization credentials
+    APPLICATION_CREDENTIALS: 
+    # Project id
+    PROJECT_ID: forward-camera-317410
+    # GKE Cluser Name
+    CLUSTER_NAME: autopilot-cluster-1
+    # Zone Name
+    ZONE_NAME: us-central1
